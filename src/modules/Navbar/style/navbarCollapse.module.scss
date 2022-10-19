@@ -1,0 +1,14 @@
+.navbarCollapseItem {
+	padding: 12px 8px;
+	transition: background-color 0.1s;
+}
+
+.navbarCollapseItem:before {
+	content: '•';
+	padding-right: 8px;
+}
+
+.navbarCollapseItem:hover {
+	background-color: #495057;
+	border-radius: 4px;
+}

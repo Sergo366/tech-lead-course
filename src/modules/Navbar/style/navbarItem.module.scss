@@ -1,0 +1,16 @@
+.navbarItem {
+	background-color: #343a40;
+	color: #e9ecef;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.navbarCard {
+	padding: 12px 8px;
+	transition: background-color 0.1s;
+}
+
+.navbarCard:hover {
+	background-color: #495057;
+	border-radius: 4px;
+}

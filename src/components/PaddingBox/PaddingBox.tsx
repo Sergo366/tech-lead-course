@@ -1,6 +1,6 @@
-import classNames from 'classnames';
 import React, { ComponentPropsWithoutRef, forwardRef } from 'react';
-import classes from './styles/index.module.scss';
+import classNames from 'classnames';
+import classes from './styles/styles.module.scss';
 
 type PaddingBoxProps = {
 	className?: string;
@@ -218,5 +218,3 @@ export const PaddingBox = forwardRef<HTMLDivElement, ComponentPropsWithoutRef<'d
 );
 
 PaddingBox.displayName = 'PaddingBox';
-
-export type { PaddingBoxProps };
