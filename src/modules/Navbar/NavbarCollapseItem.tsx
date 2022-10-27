@@ -12,13 +12,13 @@ export const NavbarCollapseItem: FC<NavbarCollapseItemProps> = (
 	{
 		author,
 		url,
-	}
+	},
 ) => {
 	return (
-		<PaddingBox  className={classes.navbarCollapseItem}>
-			<Link to={url}>
+		<Link to={url}>
+			<PaddingBox className={classes.navbarCollapseItem}>
 				{author}
-			</Link>
-		</PaddingBox>
+			</PaddingBox>
+		</Link>
 	);
 };

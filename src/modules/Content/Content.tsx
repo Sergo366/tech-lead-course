@@ -1,9 +1,10 @@
 import React from 'react';
+import { AppRoutes } from '../AppRoutes';
 
 export const Content = () => {
 	return (
-		<div style={{ border: '1px solid blue' }}>
-			Content
+		<div>
+			<AppRoutes />
 		</div>
 	);
 };

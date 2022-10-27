@@ -1,13 +1,14 @@
 import React from 'react';
 import { PaddingBox } from '../../components/PaddingBox';
 import { NavbarDataItems } from './const';
-import { NavbarItems } from './NavbarItems';
+import { NavbarItem } from './NavbarItem';
+import classes from './style/style.module.scss'
 
 export const Navbar = () => {
 	return (
-		<PaddingBox tiny>
+		<PaddingBox tiny className={classes.navbar}>
 			{NavbarDataItems.map(item => {
-				return (<NavbarItems {...item} key={item.id} />)
+				return (<NavbarItem {...item} key={item.id} />)
 			})}
 		</PaddingBox>
 	);

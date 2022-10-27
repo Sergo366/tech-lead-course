@@ -3,7 +3,7 @@ import React, { CSSProperties, ComponentPropsWithoutRef, forwardRef } from 'reac
 import classes from './styles/style.module.scss';
 import { GapSizes } from './types';
 
-type FlexBoxProps = {
+type FlexGridProps = {
 	inline?: boolean;
 	spaceBetween?: boolean;
 	spaceAround?: boolean;
@@ -22,7 +22,7 @@ type FlexBoxProps = {
 	gap?: GapSizes;
 };
 
-export const FlexBox = forwardRef<HTMLDivElement, ComponentPropsWithoutRef<'div'> & FlexBoxProps>(
+export const FlexGrid = forwardRef<HTMLDivElement, ComponentPropsWithoutRef<'div'> & FlexGridProps>(
 	(
 		{
 			className,
@@ -70,4 +70,4 @@ export const FlexBox = forwardRef<HTMLDivElement, ComponentPropsWithoutRef<'div'
 	}
 );
 
-FlexBox.displayName = 'FlexBox';
+FlexGrid.displayName = 'FlexGrid';

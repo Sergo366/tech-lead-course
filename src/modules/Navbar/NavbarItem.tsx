@@ -4,7 +4,7 @@ import { NavbarDataItem } from './types';
 import { Collapse } from '../../components/Collapse';
 import { NavbarCollapseItem } from './NavbarCollapseItem';
 
-export const NavbarItems: FC<NavbarDataItem> = (
+export const NavbarItem: FC<NavbarDataItem> = (
 	{
 		pageName,
 		urls,
