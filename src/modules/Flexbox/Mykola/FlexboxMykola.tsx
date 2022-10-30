@@ -1,10 +1,10 @@
-import React from 'react';
 import { PageLayout } from '../../../components/PageLayout';
+import { OrderFlex } from './order-flex/OrderFlex';
 
 export const FlexboxMykola = () => {
-	return (
-		<PageLayout>
-			Flexbox Mykola
-		</PageLayout>
-	);
+    return (
+        <PageLayout>
+            <OrderFlex />
+        </PageLayout>
+    );
 };
