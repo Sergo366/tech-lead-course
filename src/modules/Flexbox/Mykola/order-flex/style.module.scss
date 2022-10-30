@@ -1,0 +1,40 @@
+$box-shadow: 0px 0px 13px -100px rgba(51, 49, 49, 0.77);
+$border-color: 1px gray solid;
+$padding-el: 5px 10px;
+
+.orderContainer {
+    display: flex;
+    gap: 5px;
+}
+.orderMenu {
+    display: flex;
+    flex-direction: column;
+    border: $border-color;
+    box-shadow: $box-shadow;
+    width: 200px;
+}
+
+.orderContent {
+    display: flex;
+    width: 100%;
+    border: $border-color;
+    box-shadow: $box-shadow;
+    height: 800px;
+}
+.el {
+    padding: $padding-el;
+    margin: 5px;
+    border: $border-color;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+}
+
+p,
+label {
+    font: 0.5rem "Fira Sans", sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
